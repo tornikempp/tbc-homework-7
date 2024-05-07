@@ -1,0 +1,152 @@
+ .navigation{ 
+color: #636060;
+font-family: Helvetica;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: inline-block;
+} 
+
+header{
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+}
+
+.logo{
+width: 20%;
+padding-left: 100px;
+padding-top: 24px;
+}
+
+.navbar{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    padding-right: 78px;
+    height: 84px;
+}
+
+.navbar span:not(.last){
+margin-right: 50px;
+}
+
+.navbar span{
+padding-top: 33px;
+}
+
+
+
+.photo{
+    position: relative;
+}
+
+
+.title{
+    position: absolute;
+    /* background-color: red; */
+    right: 50%;
+    top: 50%;
+    transform: translate(50%,-50%);
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 79px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.tite2{
+    position: absolute;
+    /* background-color: red; */
+    right: 50%;
+    top: 60%;
+    transform: translate(50%,-50%);
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.beach{
+    width: 100%;
+}
+
+
+
+.contentWrapper{
+    padding: 0 100px 0 100px;
+    width: 100%;
+    display: flex;
+    margin-top: 84px;
+    margin-bottom: 150px;
+}
+.smallbox{
+display: inline-block; 
+width: 235px;
+height: 115px;
+vertical-align: top;
+color: #636060;
+font-family: Helvetica;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.contentBox{
+    display: inline-block;
+    display: flex;
+    gap: 33px;
+    flex-wrap: wrap;
+    margin-left: 83px;
+    /* height: 500px; */
+}
+.information{
+ width: 286px;
+ display: inline-block;
+}
+
+p{
+color: #636060;
+font-family: Helvetica;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 14px;
+}
+
+.title4{
+    color: #343232;
+
+font-family: Helvetica;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.paragraf{
+    margin-top: 37px;
+}
+
+.services{
+color: #010101;
+width: 214px;
+height: 32px;
+font-family: Helvetica;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 9px;
+}
+
+.discover{
+    height:20px ;
+    width:89px ;
+}
